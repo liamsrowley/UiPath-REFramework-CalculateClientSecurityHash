@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Utsq0Uf3F06hzrFw9VpJrg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://www.sha1-online.com/" CvElementArea="1661, 488, 74, 34" CvTextArea="1675, 493, 48, 21" CvTextArgument="hash" CvType="Button" DesignTimeRectangle="1665, 505, 71, 32" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'hash'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' class='' aaname='hash' check:text='hash' /&gt;" Guid="e67de8bc-001a-4288-865d-e7cc00b20c7f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA1 online' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="85b1ec4097b39c80157917415331c64b.png" xmlns="">0O249Jhv6u0C_4Edx7cR7GQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

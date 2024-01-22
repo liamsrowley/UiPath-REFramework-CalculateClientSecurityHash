@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UOtlujBKlUq2OmbeO80pUQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://www.sha1-online.com/" CvTextArea="1389, 558, 51, 19" CvTextArgument="sha-1" CvType="Text" DesignTimeRectangle="1385, 570, 133, 26" DesignTimeScaleFactor="1.5" ElementType="DropDown" FriendlyName="'sha-1'" FullSelectorArgument="&lt;webctrl tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SELECT' type='' class='' aaname='' /&gt;" Guid="475121b0-d845-41b6-9ad7-1b516dbb3132" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA1 online' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7b616f76fea39ab31d68eb0ab0812895.png" xmlns="">0Rc7Nhnj4VkqodfpwTzcwZQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

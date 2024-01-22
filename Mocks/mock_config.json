@@ -1,0 +1,8 @@
+{
+  "mockedWorkflows": [
+    {
+      "mockFilePath": "Mocks\\SHA1\\SHA1_Open_mock.xaml",
+      "sourceWorkflowPath": "SHA1\\SHA1_Open.xaml"
+    }
+  ]
+}

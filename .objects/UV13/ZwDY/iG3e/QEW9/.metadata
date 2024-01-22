@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Hash Button",
+  "Description": "Button element for submitting the input text and generating the resulting hash string.",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "QEW9wiPv-E-FaGQ9RZxvmQ",
+  "Reference": "6Bhpugaa8Eqn1YtU24IYyw/QEW9wiPv-E-FaGQ9RZxvmQ",
+  "ParentRef": "6Bhpugaa8Eqn1YtU24IYyw/iG3eY1BvuUiP1JiRIt5NWQ",
+  "Created": "2024-01-22T10:26:55.9894373Z",
+  "Updated": "2024-01-22T10:26:55.9894373Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -84,6 +84,20 @@
         "testCaseType": "TestCase",
         "executionTemplateType": "Local",
         "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "45083540-9e95-4ee8-a8aa-36190d3b4b47",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "SHA1\\SHA1_Open_TC.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "229e5d63-0fab-45da-9b6a-6eb8a351b5e4",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "SHA1\\SHA1_Close_TC.xaml"
       }
     ],
     "saveToCloud": false
