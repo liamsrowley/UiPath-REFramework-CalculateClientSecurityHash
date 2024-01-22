@@ -123,15 +123,6 @@
                   <ui:LogMessage DisplayName="Log Message - Tab Closed" sap:VirtualizedContainerService.HintSize="388,147.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;Tab closed successfully&quot;]" />
                 </Sequence>
               </uix:NCheckState.IfExists>
-              <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not disappear" sap:VirtualizedContainerService.HintSize="450,107.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_7">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                </Sequence>
-              </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
                 <uix:TargetAnchorable BrowserURL="http://www.sha1-online.com/" ContentHash="Utsq0Uf3F06hzrFw9VpJrg" CvElementArea="1661, 488, 74, 34" CvTextArea="1675, 493, 48, 21" CvTextArgument="hash" CvType="Button" DesignTimeRectangle="1665, 505, 71, 32" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'hash'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' class='' aaname='hash' check:text='hash' /&gt;" Guid="e67de8bc-001a-4288-865d-e7cc00b20c7f" InformativeScreenshot="85b1ec4097b39c80157917415331c64b.png" Reference="6Bhpugaa8Eqn1YtU24IYyw/QEW9wiPv-E-FaGQ9RZxvmQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA1 online' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
               </uix:NCheckState.Target>
