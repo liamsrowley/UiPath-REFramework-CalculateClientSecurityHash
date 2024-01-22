@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1244,1776.6666666666667</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1244,1689.3333333333333</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Acme_Open_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -102,20 +102,20 @@
       <AssemblyReference>System.Private.Uri</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Opens the Acme System 1 website and signs in using Orchestrator credentials specified in the Config file.&#xD;&#xA;&#xD;&#xA;Precondition: None&#xD;&#xA;Postcondition: The Acme System 1 website is open at the dashboard and the user is signed in" DisplayName="Acme_Open" sap:VirtualizedContainerService.HintSize="546,1712" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Opens the Acme System 1 website and signs in using Orchestrator credentials specified in the Config file.&#xA;&#xA;Precondition: None&#xA;Postcondition: The Acme System 1 website is open at the dashboard and the user is signed in" DisplayName="Acme_Open" sap:VirtualizedContainerService.HintSize="546,1624.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome: ACME System 1 - Log In" sap:VirtualizedContainerService.HintSize="484,1506" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="fb9d3824-10f6-4ccb-854a-164b7cbe66ff" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome: ACME System 1 - Log In" sap:VirtualizedContainerService.HintSize="484,1418.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="fb9d3824-10f6-4ccb-854a-164b7cbe66ff" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1286.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1199.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="Email" />
               <Variable x:TypeArguments="ss:SecureString" Name="Password" />
@@ -125,7 +125,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="[in_CredentialAssetName]" CacheStrategy="None" DisplayName="Get Credential - Acme Credentials" FolderPath="[in_OrchestratorFolder]" sap:VirtualizedContainerService.HintSize="388,144.66666666666666" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[Password]" Username="[Email]" />
+            <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="[in_CredentialAssetName]" CacheStrategy="None" DisplayName="Get Credential - Acme Credentials" FolderPath="[in_OrchestratorFolder]" sap:VirtualizedContainerService.HintSize="388,57.333333333333336" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[Password]" Username="[Email]" />
             <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Email Input'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,260.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="[Email]" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/login" ContentHash="GSx_8PhXYUiZsrDZKY8f8A" CvElementArea="698, 661, 733, 56" CvType="InputBox" DesignTimeRectangle="701, 664, 728, 51" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT email'" FullSelectorArgument="&lt;webctrl id='email' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='email' class='form-control ' aaname='Email:' /&gt;" Guid="9a53e9a8-e3bc-42db-b48d-f72cf64d6316" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAtwAAAA3CAYAAAA/tZ0BAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAATUSURBVHhe7d3NbhNnAIXhuclcUCWuAe6hQhU7Nmy6qFS6Y9GqWSRAkxAcx7+x8X+++gwZZGhKReLpgjyPdBAyY7N9Nfo8rmbLTZkuNmUy35TxbF1GH9ZlMF2X/mRVLq9WpTtelYtstCyd7d4PP+48G5iZmZmZPYDdNHCWJk4bp5HTymnmtHMaOi2dpk5bp7HT2lUT2/nH4U5o5wPyYfnwd9v/5KyfLcppb1FOdvbXpZmZmZnZ97vd9k0Lp4nTxmnktHId4DvhnaZOWzfRXTWxnSLv3dzR7mzfmJLPhzVR/ba7KG+68/L6Yl6Os87nOzIzMzMz+472Ze+mgdPCaeK0cRPjaea0cxo6LZ2mbu52p7Wr3dhOmec2+fNXw/L4Rac8enZWfvjp1MzMzMzM/mVp5rRzGjotnabeje4qt7yb2D48n5Un24t//LVb/ng7KJe9QRkMzMzMzMzstvX7/dK97NftnIZOS6epm+hOa1c5Z5Jb36nxXPDz7736zePxuEynUzMzMzMz+8omk0ndzsPhsG7pNHXaOo2d1q5yuDvnTXILPFU+Go3KbDYrq9WqrNfrstlszMzMzMzslqWXs7RzGjrhnaZOW6ex09pVbnfnkHfOnfx5MqwvzJuvr68LAADw39LOaej5fF43ddo6jZ3WrvIYk3yzMoe9x1fTutDFNgAAfLu09NVkWrd1GjutXeXZgXmcSb5huVgsxDYAANxRWjpNnbZOY6e1qzywO88QzIvL5fLmUgAA4FsluNPUaes0dlq7yq3uPLg7L+awNwAAcHdNcKex09p1cOfXcgQ3AADcX5o6bZ3GroM7vwefn6gU3AAAcH9NcKex09pVDnPnd+EFNwAA3F8T3GnstPbH4O4IbgAA2IdPwb1t7Dq48+1JwQ0AAPuxG9xp7VaC++DgoB4AADw0ghsAAFp0a3AfCW4AANiLJrjT2IIbAAD2THADAECLBDcAALRIcAMAQIsENwAAtEhwAwBAiwQ3AAC0SHADAECLBDcAALRIcAMAQIsENwAAtEhwAwBAiwQ3AAC0SHADAECLBDcAALRIcAMAQIsENwAAtEhwAwBAi24N7mPBDQAAe9EEdxpbcAMAwJ79L8ENAAAP1T+C+6QnuAEAYF92gzut/TG4LwQ3AADsw6fg3jZ2Hdyn2z9eC24AANiLJrjT2Gnt6qy/KG+6ghsAAPahCe40dlq7Du633YXgBgCAPWiCO41dB/e7wbL+9qTgBgCA+2uCO42d1q7Oh8v6MLfgBgCA+2uCO42d1q46o2V9q/vRs7MyXyxvLgMAAO4iTZ22TmOntauL8aqcD5bl8YtOOXo/LdfX1zeXAgAA3yItnaZOW6ex09rV5dWqdIbL8vzVsDx92RPcAABwR2npNHXaOo2d1q76k1Xpbsv7/faFJ9sS/+VwLLoBAOAO0tJp6rR1GjutXQ2n69Lblndudx+ez+oLnv7Wq58buN4IbwAA+Jo0c9o5DZ2WTlOnrdPYae1q9GFdBjvRnRrPLfCcO8lh73zD0szMzMzMbl+aOe2chk5LN7Gdxk5rV5P5pv5LE9259Z3zJjnknW9W5nEmeYZgHtydcs9PVOZ34Y87n+/IzMzMzOw72pe9mwZOC6eJ08Zp5LRymjntnIZOS+/G9mS+KX8DSYtD3SnuIW8AAAAASUVORK5CYII=" InformativeScreenshot="4c9d396ded78906e50be8fe3c7d34fe0.png" IsResponsive="True" Reference="6Bhpugaa8Eqn1YtU24IYyw/XWr2x05voUmOZLopRQXCdw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">

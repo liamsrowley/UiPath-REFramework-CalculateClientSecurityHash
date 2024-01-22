@@ -120,6 +120,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Acme\\Acme_Close_TC.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d1980cf4-1cff-4904-9105-f5ba8e6882bd",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Acme\\Acme_GetWorkItems_TC.xaml"
       }
     ],
     "saveToCloud": false
