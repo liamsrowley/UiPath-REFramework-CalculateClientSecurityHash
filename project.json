@@ -90,14 +90,22 @@
         "testCaseId": "45083540-9e95-4ee8-a8aa-36190d3b4b47",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "SHA1\\SHA1_Open_TC.xaml"
+        "fileName": "Tests\\SHA1_Open_TC.xaml"
       },
       {
         "editingStatus": "InProgress",
         "testCaseId": "229e5d63-0fab-45da-9b6a-6eb8a351b5e4",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "SHA1\\SHA1_Close_TC.xaml"
+        "fileName": "Tests\\SHA1_Close_TC.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b1fbd0d3-02d0-4b86-9c1a-e65eea1a96f0",
+        "dataVariationFilePath": ".variations\\SHA1_TestData_Sheet1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "SHA1\\SHA1_GetHashedText_TC.xaml"
       }
     ],
     "saveToCloud": false

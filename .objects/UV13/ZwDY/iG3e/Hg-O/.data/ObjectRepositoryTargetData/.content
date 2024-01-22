@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="UOtlujBKlUq2OmbeO80pUQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="7uaRKp8h3EWeXQdnu-H-pA" Reference="6Bhpugaa8Eqn1YtU24IYyw/Hg-OO5yXE0CNtTzSD12ndQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://www.sha1-online.com/" CvTextArea="1389, 558, 51, 19" CvTextArgument="sha-1" CvType="Text" DesignTimeRectangle="1385, 570, 133, 26" DesignTimeScaleFactor="1.5" ElementType="DropDown" FriendlyName="'sha-1'" FullSelectorArgument="&lt;webctrl tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SELECT' type='' class='' aaname='' /&gt;" Guid="475121b0-d845-41b6-9ad7-1b516dbb3132" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA1 online' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="7b616f76fea39ab31d68eb0ab0812895.png" xmlns="">0Rc7Nhnj4VkqodfpwTzcwZQ</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://www.sha1-online.com/" CvTextArea="1389, 558, 51, 19" CvTextArgument="sha-1" CvType="Text" DesignTimeRectangle="665, 535, 133, 26" DesignTimeScaleFactor="1.5" ElementType="DropDown" FriendlyName="'sha-1'" FullSelectorArgument="&lt;webctrl tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SELECT' type='' class='' aaname='' /&gt;" Guid="475121b0-d845-41b6-9ad7-1b516dbb3132" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA1 online' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6e9b0c4ead1ca596c796e116c94da828.png" xmlns="">0JzuRimJeOkSwUoQJ4Pu7ZQ</imageRef>
     </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>
