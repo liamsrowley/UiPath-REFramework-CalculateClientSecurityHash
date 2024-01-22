@@ -106,6 +106,20 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Tests\\SHA1_GetHashedText_TC.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "74758f49-5b01-45d6-8fd5-1d167167bc86",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Acme\\Acme_Open_TC.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7d36bd5e-a91e-47a0-b0e9-1783b8b0e9e2",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Acme\\Acme_Close_TC.xaml"
       }
     ],
     "saveToCloud": false
