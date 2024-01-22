@@ -105,7 +105,7 @@
         "dataVariationFilePath": ".variations\\SHA1_TestData_Sheet1.json",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "SHA1\\SHA1_GetHashedText_TC.xaml"
+        "fileName": "Tests\\SHA1_GetHashedText_TC.xaml"
       }
     ],
     "saveToCloud": false
