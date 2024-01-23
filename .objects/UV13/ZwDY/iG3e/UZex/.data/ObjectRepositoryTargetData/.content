@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="SqzNpYiDykCHO4tgNmIX6g" Reference="6Bhpugaa8Eqn1YtU24IYyw/UZex0_MZT0a-fW_v0a4nvQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="wGt1GmQOGEuN5DQghh0fBA" Reference="6Bhpugaa8Eqn1YtU24IYyw/UZex0_MZT0a-fW_v0a4nvQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://www.sha1-online.com/" CvTextArea="1213, 627, 721, 27" CvTextArgument="d219590a9ed93beOde12fb164f199ea5abc2986a" CvType="Text" DesignTimeRectangle="1217, 623, 721, 33" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'d219590a9ed93be0de12fb1…'" FullSelectorArgument="[string.Format(&quot;&lt;webctrl id='result-{0}' tag='SPAN' /&gt;&quot;, HashType)]" FuzzySelectorArgument="&lt;webctrl id='result-sha1' tag='SPAN' type='' class='' /&gt;" Guid="11d2841d-04cf-43ef-b998-438c99dfc004" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA1 online' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="7f0199ec394e7dc70e2b4fad166af759.png" xmlns="">0l1afSS7MAUSfpk3fCtuSgA</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://www.sha1-online.com/" CvTextArea="1213, 627, 721, 27" CvTextArgument="d219590a9ed93beOde12fb164f199ea5abc2986a" CvType="Text" DesignTimeRectangle="869, 530, 579, 33" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'d219590a9ed93be0de12fb1…'" FullSelectorArgument="&lt;webctrl id='result-sha1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='result-sha1' tag='SPAN' type='' class='' /&gt;" Guid="11d2841d-04cf-43ef-b998-438c99dfc004" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA1 online' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="92f4c7726d648e9dee410b26edd394fb.png" xmlns="">0YuT-scgOtUuAcCnIbFsjDg</imageRef>
     </TargetAnchorable>
-    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
-      <ObjectRepositoryVariableData DefaultValue="sha1" Name="HashType" />
-    </scg:List>
     <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>

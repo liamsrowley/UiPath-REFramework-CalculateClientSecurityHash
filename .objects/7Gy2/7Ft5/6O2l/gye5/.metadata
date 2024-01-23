@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Menu Item Sub Item",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "gye5BT3D50GDE7pp2_nNiQ",
+  "Reference": "6Bhpugaa8Eqn1YtU24IYyw/gye5BT3D50GDE7pp2_nNiQ",
+  "ParentRef": "6Bhpugaa8Eqn1YtU24IYyw/6O2lAkGpAkGYj5DUEfLqRw",
+  "Created": "2024-01-22T18:03:43.1525987Z",
+  "Updated": "2024-01-22T18:03:43.1525987Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

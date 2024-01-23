@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VIFATDup2UelMWHNwMvkDg" Reference="6Bhpugaa8Eqn1YtU24IYyw/C6wYMVtSQ0SwaFiOQkAWhg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://acme-test.uipath.com/work-items" CvTextArea="592, 280, 276, 48" CvTextArgument="Work Items" CvType="Text" DesignTimeRectangle="596, 276, 1710, 74" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Work Items'" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzySelectorArgument="[string.Format(&quot;&lt;webctrl tag='H1' type='' class='page-header' aaname='                                                                                                                                                                                     {0}                                                         ' check:innerText='{0}' /&gt;&quot;, MenuItem)]" Guid="daeb9108-b0d4-42a8-844a-5921df1f786f" ScopeSelectorArgument="[string.Format(&quot;&lt;html app='chrome.exe' title='ACME System 1 - {0}' /&gt;&quot;, MenuItem)]" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="111f5d0e498501e8335ca9ec11f7dcec.png" xmlns="">0UMgEmOmvEE2fGG8BxUpMVg</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="Work Items" Name="MenuItem" />
+    </scg:List>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

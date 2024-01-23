@@ -3,6 +3,10 @@
     {
       "filePath": ".variations\\SHA1_TestData_Sheet1.json",
       "dataVariationType": "File"
+    },
+    {
+      "filePath": ".variations\\Acme_NavigateMenu.json",
+      "dataVariationType": "File"
     }
   ]
 }

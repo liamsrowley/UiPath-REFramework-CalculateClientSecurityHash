@@ -7,7 +7,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1244,1566</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1244,1443.3333333333333</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>SHA1_GetHashedText_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -104,54 +104,43 @@
       <AssemblyReference>System.Private.Uri</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Enters a value passed by argument into the text input field on the website, submits it, then copies the resulting hashed text into the out_HashedText argument.&#xD;&#xA;&#xD;&#xA;Preconditions: The SHA1-Online website is open&#xD;&#xA;&#xD;&#xA;Postconditions: The out_HashedText argument contains the appropriate hashed text." DisplayName="SHA1_GetHashedText" sap:VirtualizedContainerService.HintSize="592,1501.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Enters a value passed by argument into the text input field on the website, submits it, then copies the resulting hashed text into the out_HashedText argument.&#xA;&#xA;Preconditions: The SHA1-Online website is open&#xA;&#xA;Postconditions: The out_HashedText argument contains the appropriate hashed text." DisplayName="SHA1_GetHashedText" sap:VirtualizedContainerService.HintSize="546,1378.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome: SHA1 online" sap:VirtualizedContainerService.HintSize="530,1278.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="967d7be0-c2de-4a07-9bd1-e2893c470c62" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome: SHA1 online" sap:VirtualizedContainerService.HintSize="484,1156" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="967d7be0-c2de-4a07-9bd1-e2893c470c62" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="496,1059.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
-            <Sequence.Variables>
-              <Variable x:TypeArguments="x:String" Default="sha1" Name="HashType" />
-            </Sequence.Variables>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,936.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NSelectItem DisplayName="Select Item 'Hash Type Dropdown'" sap:VirtualizedContainerService.HintSize="434,159.33333333333334" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="[in_HashType]" ScopeIdentifier="967d7be0-c2de-4a07-9bd1-e2893c470c62" Version="V3">
+            <uix:NSelectItem DisplayName="Select Item 'Hash Type Dropdown'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="[in_HashType]" ScopeIdentifier="967d7be0-c2de-4a07-9bd1-e2893c470c62" Version="V3">
               <uix:NSelectItem.Target>
                 <uix:TargetAnchorable BrowserURL="http://www.sha1-online.com/" ContentHash="7uaRKp8h3EWeXQdnu-H-pA" CvTextArea="1389, 558, 51, 19" CvTextArgument="sha-1" CvType="Text" DesignTimeRectangle="665, 535, 133, 26" DesignTimeScaleFactor="1.5" ElementType="DropDown" FriendlyName="'Hash Type Dropdown'" FullSelectorArgument="&lt;webctrl tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SELECT' type='' class='' aaname='' /&gt;" Guid="475121b0-d845-41b6-9ad7-1b516dbb3132" ImageBase64="" InformativeScreenshot="6e9b0c4ead1ca596c796e116c94da828.png" Reference="6Bhpugaa8Eqn1YtU24IYyw/Hg-OO5yXE0CNtTzSD12ndQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA1 online' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
               </uix:NSelectItem.Target>
             </uix:NSelectItem>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Text Input'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="434,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="967d7be0-c2de-4a07-9bd1-e2893c470c62" Text="[in_TextToHash]" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Text Input'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="967d7be0-c2de-4a07-9bd1-e2893c470c62" Text="[in_TextToHash]" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="http://www.sha1-online.com/" ContentHash="f27B4NoIE02nfOsmpTK0gg" CvTextArgument="SHA-1 MD5 on Wikipedia" DesignTimeRectangle="446, 470, 499, 32" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'Text Input'" FullSelectorArgument="&lt;webctrl id='textToHashId' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='textToHashId' tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="5ae5ada1-0b29-490a-9fab-3168eb2e539b" InformativeScreenshot="db861fc456abae052d1739891dac40ca.png" Reference="6Bhpugaa8Eqn1YtU24IYyw/GjrN9lNoZ0Sj1kkPJhzbew" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA1 online' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Hash Button'" sap:VirtualizedContainerService.HintSize="434,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Hash Button'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="http://www.sha1-online.com/" ContentHash="Utsq0Uf3F06hzrFw9VpJrg" CvElementArea="1661, 488, 74, 34" CvTextArea="1675, 493, 48, 21" CvTextArgument="hash" CvType="Button" DesignTimeRectangle="1665, 505, 71, 32" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'hash'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' class='' aaname='hash' check:text='hash' /&gt;" Guid="e67de8bc-001a-4288-865d-e7cc00b20c7f" InformativeScreenshot="85b1ec4097b39c80157917415331c64b.png" Reference="6Bhpugaa8Eqn1YtU24IYyw/QEW9wiPv-E-FaGQ9RZxvmQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA1 online' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <Assign DisplayName="Assign in_HashType to HashType" sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
-              <Assign.To>
-                <OutArgument x:TypeArguments="x:String">[HashType]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="x:String">[in_HashType.Replace("-", String.Empty)]</InArgument>
-              </Assign.Value>
-            </Assign>
-            <uix:NGetText DisplayName="Get Text 'Hashed Text'" sap:VirtualizedContainerService.HintSize="434,159.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_1" TextString="[out_HashedText]" Version="V3">
+            <uix:NGetText DisplayName="Get Text 'Hashed Text'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="967d7be0-c2de-4a07-9bd1-e2893c470c62" TextString="[out_HashedText]" Version="V3">
               <uix:NGetText.Target>
-                <uix:TargetAnchorable BrowserURL="http://www.sha1-online.com/" ContentHash="SqzNpYiDykCHO4tgNmIX6g" CvTextArea="1213, 627, 721, 27" CvTextArgument="d219590a9ed93beOde12fb164f199ea5abc2986a" CvType="Text" DesignTimeRectangle="1217, 623, 721, 33" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'d219590a9ed93be0de12fb1…'" FullSelectorArgument="[string.Format(&quot;&lt;webctrl id='result-{0}' tag='SPAN' /&gt;&quot;, HashType)]" FuzzySelectorArgument="&lt;webctrl id='result-sha1' tag='SPAN' type='' class='' /&gt;" Guid="11d2841d-04cf-43ef-b998-438c99dfc004" InformativeScreenshot="7f0199ec394e7dc70e2b4fad166af759.png" Reference="6Bhpugaa8Eqn1YtU24IYyw/UZex0_MZT0a-fW_v0a4nvQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA1 online' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                <uix:TargetAnchorable BrowserURL="http://www.sha1-online.com/" ContentHash="wGt1GmQOGEuN5DQghh0fBA" CvTextArea="1213, 627, 721, 27" CvTextArgument="d219590a9ed93beOde12fb164f199ea5abc2986a" CvType="Text" DesignTimeRectangle="869, 530, 579, 33" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Hashed Text'" FullSelectorArgument="&lt;webctrl id='result-sha1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='result-sha1' tag='SPAN' type='' class='' /&gt;" Guid="11d2841d-04cf-43ef-b998-438c99dfc004" ImageBase64="" InformativeScreenshot="92f4c7726d648e9dee410b26edd394fb.png" Reference="6Bhpugaa8Eqn1YtU24IYyw/UZex0_MZT0a-fW_v0a4nvQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA1 online' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
               </uix:NGetText.Target>
             </uix:NGetText>
           </Sequence>
