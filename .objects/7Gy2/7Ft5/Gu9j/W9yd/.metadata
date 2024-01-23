@@ -1,0 +1,13 @@
+﻿{
+  "Name": "New Status Button",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "W9yd5BKIA0CFz_YsPkud7A",
+  "Reference": "6Bhpugaa8Eqn1YtU24IYyw/W9yd5BKIA0CFz_YsPkud7A",
+  "ParentRef": "6Bhpugaa8Eqn1YtU24IYyw/Gu9jtFRQX0mS8UXOzt7hKw",
+  "Created": "2024-01-23T10:42:54.7083119Z",
+  "Updated": "2024-01-23T10:42:54.7083119Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
